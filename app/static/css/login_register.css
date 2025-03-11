@@ -74,4 +74,29 @@ body {
     text-decoration: underline;
 }
 
+#goBack {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#goBack p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #BBBBBB;
+}
+
+#goBack a {
+    color: #971C2F;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#goBack a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 

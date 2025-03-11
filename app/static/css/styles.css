@@ -10,7 +10,6 @@ body {
     background: radial-gradient(circle, #1E1E1E 60%, #121212 100%);
     color: #fff;
     font-size: 16px;
-    overflow-x: hidden;
     position: relative;
 }
 
@@ -24,7 +23,7 @@ body::before {
     height: 400px;
     background: rgba(151, 28, 47, 0.5);
     filter: blur(100px);
-    z-index: 0;
+    z-index: -10;
 }
 
 
